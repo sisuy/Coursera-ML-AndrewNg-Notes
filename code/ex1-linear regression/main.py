@@ -37,7 +37,7 @@ y = np.matrix(y.values)
 #init theta [0,0]
 theta = np.matrix(np.array([0,0]))
 
-#Todo:calculate the loss function
+#Todo: calculate the loss function
 loss = computeCost(X, y, theta)
 
 #Todo:gradient Descent to minmize the cost function
